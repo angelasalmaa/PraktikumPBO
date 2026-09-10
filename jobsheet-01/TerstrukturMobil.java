@@ -38,25 +38,10 @@ public class TerstrukturMobil {
         String warna4 = "Merah";
         int kecepatan4 = 60;
 
-        String merk5 = "Suzuki";
-        String warna5 = "Silver";
-        int kecepatan5 = 35;
+        String merk5 = "Ferrari";
+        String warna5 = "Merah";
+        int kecepatan5 = 70;
 
-        String merk6 = "Mercedes";
-        String warna6 = "Biru";
-        int kecepatan6 = 65;
-
-        String merk7 = "Jeep";
-        String warna7 = "Hijau";
-        int kecepatan7 = 70;
-
-        String merk8 = "KIA";
-        String warna8 = "Putih";
-        int kecepatan8 = 45;
-
-        String merk9 = "BMW";
-        String warna9 = "Hitam";
-        int kecepatan9 = 50;
 
         System.out.println("===== DATA MOBIL =====");
 
@@ -109,45 +94,9 @@ public class TerstrukturMobil {
         System.out.println("Merk      : " + merk5);
         System.out.println("Warna     : " + warna5);
         System.out.println("Kecepatan awal : " + kecepatan5);
-        kecepatan5 = tambahKecepatan(kecepatan5, 50);
+        kecepatan = tambahKecepatan(kecepatan5, 10);
         System.out.println("Kecepatan setelah ditambah  : " + kecepatan5);
-        kecepatan5 = kurangiKecepatan(kecepatan5, 20);
+        kecepatan = kurangiKecepatan(kecepatan5, 20);
         System.out.println("Kecepatan setelah dikurangi : " + kecepatan5);
-
-        System.out.println("\nMobil 7");
-        System.out.println("Merk      : " + merk6);
-        System.out.println("Warna     : " + warna6);
-        System.out.println("Kecepatan awal : " + kecepatan6);
-        kecepatan6 = tambahKecepatan(kecepatan6, 10);
-        System.out.println("Kecepatan setelah ditambah  : " + kecepatan6);
-        kecepatan6 = kurangiKecepatan(kecepatan6, 20);
-        System.out.println("Kecepatan setelah dikurangi : " + kecepatan6);
-
-        System.out.println("\nMobil 8");
-        System.out.println("Merk      : " + merk7);
-        System.out.println("Warna     : " + warna7);
-        System.out.println("Kecepatan awal : " + kecepatan7);
-        kecepatan7 = tambahKecepatan(kecepatan7, 10);
-        System.out.println("Kecepatan setelah ditambah  : " + kecepatan7);
-        kecepatan7 = kurangiKecepatan(kecepatan7, 20);
-        System.out.println("Kecepatan setelah dikurangi : " + kecepatan7);
-
-        System.out.println("\nMobil 9");
-        System.out.println("Merk      : " + merk8);
-        System.out.println("Warna     : " + warna8);
-        System.out.println("Kecepatan awal : " + kecepatan8);
-        kecepatan8 = tambahKecepatan(kecepatan8, 10);
-        System.out.println("Kecepatan setelah ditambah  : " + kecepatan8);
-        kecepatan8 = kurangiKecepatan(kecepatan8, 20);
-        System.out.println("Kecepatan setelah dikurangi : " + kecepatan8);
-
-        System.out.println("\nMobil 10");
-        System.out.println("Merk      : " + merk9);
-        System.out.println("Warna     : " + warna9);
-        System.out.println("Kecepatan awal : " + kecepatan9);
-        kecepatan9 = tambahKecepatan(kecepatan9, 10);
-        System.out.println("Kecepatan setelah ditambah  : " + kecepatan9);
-        kecepatan9 = kurangiKecepatan(kecepatan9, 20);
-        System.out.println("Kecepatan setelah dikurangi : " + kecepatan9);
     }
 }
